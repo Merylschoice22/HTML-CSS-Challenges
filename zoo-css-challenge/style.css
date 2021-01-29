@@ -55,6 +55,10 @@ h3 {
   font-size: 150%;
 }
 
+p {
+  margin: 0 0 10px 0;
+}
+
 button {
   display: inline-block;
   border-radius: 3px;
@@ -75,7 +79,12 @@ footer {
   justify-content: space-between;
 }
 
+#logo {
+  border: none;
+}
+
 .introduction {
+  background-color: white;
 }
 
 #badge {
@@ -85,7 +94,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -109,6 +118,12 @@ footer {
 }
 
 .image-container img:first-of-type {
+  border: 5px solid tomato;
+  vertical-align: top;
+}
+
+.image-container img:last-of-type {
+  border: 5px solid green;
   vertical-align: bottom;
 }
 
@@ -117,13 +132,29 @@ footer {
   color: #f0e100;
 }
 
+.tigers h2 {
+  color: #ef6f6c;
+}
+
 .giraffe {
-  background-color: #465775;
-  color: #56e39f;
+  background-color: #483c46;
+  color: #beee62;
 }
 
 .giraffe h2 {
   color: #ef6f6c;
+}
+
+.giraffe h3 {
+  color: #f4743b;
+}
+
+.giraffe p:first-of-type {
+  font-size: 30px;
+}
+
+.news h2 {
+  text-align: center;
 }
 
 .card {
@@ -164,6 +195,7 @@ footer {
 
 .education-container {
   background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 25%;
   padding: 50px;
   max-width: 400px;
 }
@@ -171,6 +203,14 @@ footer {
 .education-container h3,
 .education-container p {
   margin-bottom: 1em;
+}
+
+.education-container button {
+  font-size: 20px;
+}
+
+.education-container button:hover {
+  color: violet;
 }
 
 /*Membership*/
@@ -184,6 +224,11 @@ footer {
   color: #ff3f00;
 }
 
+.membership p {
+  margin: auto;
+  max-width: 700px;
+}
+
 .membership strong {
   color: #ff7f11;
 }
@@ -191,5 +236,28 @@ footer {
 /*Programs*/
 
 .programs .card {
-  display: block;
+  display: inline-block;
+}
+
+#button1 {
+  background-color: teal;
+}
+
+#button2 {
+  background-color: crimson;
+}
+
+#button3 {
+  background-color: darkgreen;
+}
+
+.sloth {
+  border: 6px dotted rgb(255, 230, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+.sloth p {
+  color: rgb(255, 136, 0);
+  font-size: 14px;
 }
