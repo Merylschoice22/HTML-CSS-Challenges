@@ -2,6 +2,10 @@
   font-family: sans-serif;
 }
 
+body {
+  padding-top: 145px;
+}
+
 header {
   background-color: #211a1d;
   color: #ffffff;
@@ -87,6 +91,31 @@ footer {
   background-color: white;
 }
 
+#banner {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(37, 196, 161);
+  display: inline-block;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+#banner h1 {
+  color: rgb(255, 136, 0);
+  font-size: 40px;
+}
+
+#banner p {
+  color: rgb(255, 136, 0);
+  font-size: 20px;
+}
+
 #badge {
   height: 120px;
   width: 120px;
@@ -105,6 +134,7 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  transition: flex;
 }
 
 #badge p {
@@ -119,12 +149,10 @@ footer {
 
 .image-container img:first-of-type {
   border: 5px solid tomato;
-  vertical-align: top;
 }
 
 .image-container img:last-of-type {
   border: 5px solid green;
-  vertical-align: bottom;
 }
 
 .tigers {
